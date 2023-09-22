@@ -99,12 +99,18 @@ a {
   text-decoration: none;
 }
 
-.animated-btn {
-  width: 180px;
-  height: 60px;
+.special-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
-  background: transparent;
-  border: 1px solid #91c9ff;
-  outline: none;
-  transition: 1s ease-in-out 0s;
+  position: relative; /* This is important for the glow effect */
+  overflow: hidden;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
