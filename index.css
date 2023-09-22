@@ -85,6 +85,10 @@ ul > li {
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
+#focused-link {
+  box-shadow: rgba(219, 68, 55, 0.95) 0px 4px 16px 0px;
+}
+
 ul > li > a {
   display: flex;
   flex-direction: row;
